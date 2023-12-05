@@ -1,0 +1,33 @@
+.App {
+  height: 150vh;
+  background-color: #232342;
+  font-family: Lato, sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.blahaj-logo-container {
+  width: 100%;
+  display: flex;  
+  position: relative;
+
+  align-items: left;
+  justify-content: left;
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+}
+
+.blahaj-logo {
+  height: 100px;
+}
+
+.blahaj-logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.blahaj-logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}

@@ -1,0 +1,56 @@
+.board {
+    width: fit-content;
+    margin: 40px auto;
+    text-align: center;
+    position: relative;
+    top: -100px;
+    width: 400px;
+    height: 700px;
+    padding: 14px;
+    border-radius: 20px;
+    border: 5px solid rgb(9, 9, 9);
+}
+h1 {
+    color: #eee;
+    margin-bottom: 16px;
+    position: relative;
+    top: -90px;
+    text-align: center;
+}
+
+.board button {
+    padding: 8px 12px;
+    margin: 25px;
+    background: transparent;
+    border: 2px solid #eee;
+    color: #eee;    
+    width: 100px;
+    border-radius: 5px;
+    transition: 0.2s;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 40px;
+}
+.board button:hover {
+    background: #eee;
+    color: #222;
+  }
+
+.board .game-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.turn-container {
+    width: 70px;
+    height: 70px;
+    pointer-events: none;
+    border-color: transparent;
+    display: flex;
+    justify-content: center;
+    margin: 15px auto;
+    width: fit-content;
+    position: relative;
+    border-radius: 10px;
+}
