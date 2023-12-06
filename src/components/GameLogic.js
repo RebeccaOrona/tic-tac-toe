@@ -17,6 +17,7 @@ export const GameLogic = () => {
     const [winner, setWinner] = useState(null)
 
     const updateBoard = (index) => {
+        if (board[index] || winner) return
         const newBoard = [ ... board];
         newBoard[index] = turn
         setBoard(newBoard)
