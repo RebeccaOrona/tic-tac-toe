@@ -1,3 +1,11 @@
+.square-container.winner {
+  width: 40px;
+  height: 38px;
+  font-size: 30px;
+  align-content: center;
+  display: inline-grid;
+}
+
 .square-container {
     width: 100px;
     height: 100px;

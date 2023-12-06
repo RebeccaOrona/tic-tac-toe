@@ -1,9 +1,9 @@
 import React from "react";
 import '../css/Square.css'
 
-export const Square = ({children, isSelected, updateBoard, index}) => {
+export const Square = ({children, isSelected, updateBoard, winner, index}) => {
 
-    const className = `square-container ${isSelected ? 'selected' : ''}` 
+    const className = `square-container ${isSelected ? 'selected' : '' || winner ? 'winner' : ''}` 
 
     const handleClick = () => {
         updateBoard(index)
